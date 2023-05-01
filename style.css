@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* outline: 1px solid black; */
+}
+#img1{
+    background-image: url(img/node.jpeg);
+}
+#img1 h2{
+    color: #83331b;
+}
+#img2{
+    background-image: url(img/red.jpeg);
+}
+#img2 h2{
+    color: #ef5f5d;
+}
+#img3{
+    background-image: url(img/yellow.jpeg);
+}
+#img3 h2{
+    color: #472f12;
+}
+#img4{
+    background-image: url(img/green.jpeg);
+    
+}
+#img4 h2{
+    color: #3b541a;
+}
+#img5{
+    background-image: url(img/purple.jpeg);
+}
+#img5 h2{
+    color: #391c5c;
+}
+
+.img{
+    flex: 0.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.img h2{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: large;
+    text-transform: capitalize;
+    opacity: 0;
+}
+.expanded{
+    flex: 7;
+}
+.expanded h2{
+    opacity: 1;
+}
+
